@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+}
+
+.btn{
+  width: 120px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.btn p{
+  line-height: 60px;
+  text-align: center;
+}
+
+.btn:hover{
+  opacity: 0.7;
+  
+}
+
+.blue{
+  background-color: aqua;
+  border-bottom: solid 4px #627725;
+  border-radius: 3px;
+}
+
+.blue:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+.red{
+  background-color: crimson;
+  border-bottom: solid 4px #000;
+}
+
+.red:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
